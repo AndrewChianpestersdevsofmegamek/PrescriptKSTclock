@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Prescript1" xml:space="preserve">
+    <value>To ... Pack a lunchbox and consume it on top of a trash can in the streets of District 11 at 1 PM today.</value>
+  </data>
+  <data name="Prescript2" xml:space="preserve">
+    <value>To …. Bake dacquoise while the hour hand rests between 7 and 8, and eat it while watching a movie.</value>
+  </data>
+  <data name="Prescript3" xml:space="preserve">
+    <value>To …. Initiate a game of Never Have I Ever with the first five people you encounter. When one folds a finger, break it.</value>
+  </data>
+  <data name="Prescript4" xml:space="preserve">
+    <value>To …. Neatly clip the nails of the sixty-second person you come across.</value>
+  </data>
+  <data name="Prescript5" xml:space="preserve">
+    <value>To …. Pet quadrupedal animals five times.</value>
+  </data>
+  <data name="Prescript6" xml:space="preserve">
+    <value>To …. Spin a wheel and throw a cake at the person determined by the result.</value>
+  </data>
+  <data name="Prescript7" xml:space="preserve">
+    <value>To …. Consume eight crabs stored at room temperature and ripe persimmon at once.</value>
+  </data>
+  <data name="Prescript8" xml:space="preserve">
+    <value>To …. At the railing on the roof of a building, shout out the name of the person you dislike, then jump off. The height of the building does not matter.</value>
+  </data>
+  <data name="Prescript9" xml:space="preserve">
+    <value>To …. After a meal, discard all dishes that were used to serve it.</value>
+  </data>
+  <data name="Prescript10" xml:space="preserve">
+    <value>To …. On the morning after receiving the Prescript, drink three cups of water as soon as you get up.</value>
+  </data>
+  <data name="Prescript11" xml:space="preserve">
+    <value>To …. Race against residents that live in the same building as you to District 7. Measure the distance every twenty-three minutes and disqualify the one farthest away from the destination.</value>
+  </data>
+  <data name="Prescript12" xml:space="preserve">
+    <value>To …. Within three days, knit a scarf with a butterfly pattern.</value>
+  </data>
+  <data name="Prescript13" xml:space="preserve">
+    <value>To …. Dial any number. Give a New Year’s greetings and words of blessing to whoever receives the call.</value>
+  </data>
+  <data name="Prescript14" xml:space="preserve">
+    <value>To …. See green from a white wall.</value>
+  </data>
+  <data name="Prescript15" xml:space="preserve">
+    <value>To …. When hungry, consume a Cheeki’s cheeseburger with added onion.</value>
+  </data>
+  <data name="Prescript16" xml:space="preserve">
+    <value>To …. Fold thirty-nine paper cranes and throw them from the rooftop.</value>
+  </data>
+  <data name="Prescript17" xml:space="preserve">
+    <value>To …. At work, cut the ear of the first person to fulminate against you.</value>
+  </data>
+  <data name="Prescript18" xml:space="preserve">
+    <value>To …. When your eyes meet another person’s, nod at them.</value>
+  </data>
+  <data name="Prescript19" xml:space="preserve">
+    <value>To …. Return to your home this instant. You may leave once a dog barks in front of your house one time.</value>
+  </data>
+  <data name="Prescript20" xml:space="preserve">
+    <value>To …. Wear light green clothing and take 10 steps in a triangle-shaped alley.</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="LibrarySnap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\library-of-ruina-click-sound-effect-made-with-Voicemod.mp3;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
